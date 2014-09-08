@@ -264,11 +264,6 @@
           })
           .blur(function () {
               hide_dropdown();
-
-              if ($(input).data("settings").allowFreeTagging) {
-                add_freetagging_tokens();
-              }
-
               $(this).val("");
               token_list.removeClass($(input).data("settings").classes.focused);
           })
