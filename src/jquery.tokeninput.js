@@ -588,7 +588,7 @@
             }
             var object = {};
             object[$(input).data("settings").tokenValue] = object[$(input).data("settings").propertyToSearch] = token;
-            add_token(object);
+            if(token) { add_token(object); }
           });
       }
 
