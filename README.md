@@ -1,3 +1,9 @@
+# Modifications from base
+
+* Tokens are not added on blur when using freeAdd.
+* Falsy tokens (mainly empty strings) are not added when using freeAdd.
+
+
 jQuery Tokeninput: A Tokenizing Autocomplete Text Entry
 =======================================================
 
